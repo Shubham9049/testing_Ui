@@ -16,7 +16,8 @@ api.interceptors.request.use((config) => {
 
   return config;
 });
-// Response Interceptor
+
+// Response Interceptor function
 api.interceptors.response.use(
   (response) => {
     return response;
